@@ -20,7 +20,6 @@ public function images() {
     return $this->hasMany(CarImage::class);
 }
 
-// Ez az új kód amit hozzá kell adni:
 protected static function boot()
 {
     parent::boot();
